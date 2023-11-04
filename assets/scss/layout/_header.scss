@@ -1,0 +1,45 @@
+.main_header {
+    position: sticky;
+    font-size: 16px;
+    justify-content: center;
+    display: flex;
+    padding: 20px 0px;
+    gap: 60px;
+    color: grey;
+
+    &>ul{
+        display: flex;
+        gap: 30px;
+        li{
+            position: relative;
+            ul{
+                background-color: #bfdf94;
+                top: 40px;
+                width: 160px;
+                position: absolute;
+                display: none;
+            }
+            .shop_listbox{
+                justify-content: center;
+                background-color: #bfdf94;
+                margin: 10px;
+                gap: 30px;
+                position: absolute;
+                display: flex;
+                width: 550px;
+                display: none;
+                ul{
+                    position: static;
+                }
+            }
+    }
+    li:hover{
+        ul{
+            display: block;
+        }
+        .shop_listbox{
+            display: flex;
+        }
+    }
+}  
+}

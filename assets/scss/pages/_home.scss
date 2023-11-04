@@ -1,0 +1,58 @@
+// section one
+.section_content_text_black {
+    background-color: rgb(250, 231, 201);
+    width: 100%;
+    height: 700px;
+
+    .slide_left_and_right{
+        display: flex;
+        justify-content: space-around;
+       
+    }
+
+    .slide_inner_right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .slide_inner_left{
+        justify-content: center;
+        align-items: center;
+        margin: 210px;
+        font-size: 45px;
+    }
+
+    .button{
+        width: 200px;
+        height: 60px;
+        border-radius: 40px;
+        top: 40px;
+        background-color: #abd373;
+    }
+}
+// section two
+.container{
+    .image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 30px;
+    }
+   .shipping-payment-services{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px dashed #abd373;
+   } 
+
+   .text{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+   }
+}
